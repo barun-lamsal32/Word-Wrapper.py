@@ -2,7 +2,7 @@ from datetime import datetime
 start_time = datetime.now()
 end_time = datetime.now()
 def display_rule():
-    print("---------WELCOME TO WORDLE (powered by mahesh )------------")
+    print("---------WELCOME TO WORDLE ------------")
     print("\n")
     print("Game Rules: ")
     print(" A random 5-letter English word has been selected.\n You have 6 attempts to guess the hidden word.\n Every guess must: Contain exactly 5 letters , Be a valid English word.\n Invalid words do NOT count as an attempt.\n After each valid guess, you will receive feedback:\n ✓ Letter is correct and in the correct position\n *Letter exists in the word but is the wrong position\n . Letter does not exist in the word\n 6. Guess the word within 6 attempts to win!")
